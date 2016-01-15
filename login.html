@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+form{ 
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	text-align:center;}
+label {
+    width:20%;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;}
+input {
+    height:20px; 
+    width:70%; 
+    padding:5px 8px;}
+ul{	list-style-type:none;}
+li{ padding:12px 0;}
+</style>
+</head>
+<body>
+<form method="post" action="connect.php">
+<ul>
+	<li><label for="username">Username</label>
+	<input type="text" name="username"></li>
+    <li><label for="password">Password</label>
+	<input type="password" name="password"></li>
+	<li style="text-align:center"><input style="height:auto;" type="submit"></li>
+    </ul>
+</form>
+</body>
+</html>
